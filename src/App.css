@@ -1,0 +1,27 @@
+/* CSS for small screens */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-icon:hover {
+    color: #333; /* Change color on hover */
+  }
+  .menu-icon:before {
+    content: "\2630"; /* Hamburger icon */
+    font-size: 1.5rem;
+  }
+  /* Adjust styles as needed */
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+
+}

@@ -1,0 +1,391 @@
+.filter-container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.items-number{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #252020;
+padding:10px;
+
+
+}
+.left-arrow{
+width: 30px;
+height: 30px;
+}
+.hide-filter-para{
+font-family: 'Adobe Caslon Pro';
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+text-align: right;
+color: #888792;
+text-decoration: underline;
+margin:5px;
+
+}
+.hide-container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.recommended-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #252020;
+margin:5px;
+
+}
+@media screen and(max-width:1200px){
+    .recommended-para{
+        font-size: 30px;
+    }
+}
+.recommended-icon{
+width: 16px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+.recommend-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.checkbox{
+width: 22px;
+height: 22px;
+gap: 0px;
+border: 0.92px 0px 0px 0px;
+opacity: 0px;
+border-color:#4D4D4D;
+
+
+
+}
+.customiazale-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+width: 270px;
+height: 16px;
+top: 4px;
+left: 30px;
+gap: 0px;
+opacity: 0px;
+margin:5px;
+
+
+}
+.checkbox-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.hr-width{
+    width:20px;
+}
+.ideal-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ideal-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .ideal-for-para{
+        font-size: 30px;
+    }
+}
+.side-bar-container{
+    width: 200px;
+    background-color: white;
+    margin:10px;
+
+}
+.ideal-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+.all-para{
+font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color:#252020;
+
+}
+.occassion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.occassion-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .occassion-for-para{
+        font-size: 30px;
+    }
+}
+.occassion-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.work-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.work-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .work-for-para{
+        font-size: 30px;
+    }
+}
+.work-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.fabric-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fabric-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .fabric-for-para{
+        font-size: 30px;
+    }
+}
+.fabric-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.segment-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.segment-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .segment-for-para{
+        font-size: 30px;
+    }
+}
+.segment-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+
+.segmentall-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.segmentall-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+
+}
+@media screen and (max-width:1200px){
+    .segmentall-for-para{
+        font-size: 30px;
+    }
+}
+.segmentall-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.raw-material-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.raw-material-for-para{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+margin:5px;
+
+
+}
+@media screen and (max-width:1200px){
+    .raw-material-for-para{
+        font-size: 30px;
+    }
+}
+.raw-material-icon{
+    width: 16px;
+    height: 16px;
+    
+}
+.images-sidebar-container{
+    display: flex;
+    flex-direction: row;
+}
+.new-product{
+font-family: 'Simplon Norm';
+font-size: 14px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #000000;
+padding:10px;
+
+
+
+}
+.new-product-container{
+    background-color:#ffffff;
+    width:200px;
+    height:100px;
+}
+.first-product-heading{
+font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+
+}
+@media screen and (max-width:1200px){
+    .first-product-heading{
+        font-size: 50px;
+    }
+}
+.first-product-para-container{
+    display: flex;
+    flex-direction: row;
+}
+.first-product-para{
+font-family: 'Simplon Norm';
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: left;
+margin:5px;
+
+}
+@media screen and (max-width:1200px){
+    .first-product-para{
+        font-size: 30px;
+    }
+}
+.heart-icon{
+width: 24px;
+height: 24px;
+
+}
+.products-card-container{
+    display: flex;
+    flex-direction: row;
+}
+.first-produt-container{
+    display: flex;
+    flex-direction: column;
+}
+.products-card-second-row-container{
+    display: flex;
+    flex-direction: row;
+}
+.rows{
+    display:flex;
+    flex-direction:column;
+}
+.third-row-container{
+    display: flex;
+    flex-direction: row;
+}
+.fourth-row-container{
+    display: flex;
+    flex-direction: row;
+}
+.fifth-row-container{
+    display: flex;
+    flex-direction: row;
+}
+.sixth-row-container{
+    display: flex;
+    flex-direction: row;
+}

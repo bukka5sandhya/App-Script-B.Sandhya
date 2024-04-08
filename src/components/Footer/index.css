@@ -1,0 +1,255 @@
+.bg-container{
+    background-color:#000000;
+    background-size: cover;
+    height:100vh;
+    padding:30px;
+}
+.two-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.side-one-container{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+}
+.be-first-para{
+font-family: 'Simplon Norm';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color:#ffffff;
+}
+@media screen and (max-width:1200px){
+    .be-first-para{
+        font-size: 40px;
+    }
+}
+.side-one-para{
+font-family: 'Simplon Norm';
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+color:#ffffff;
+
+}
+.button-and-input-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.subscribe-button{
+    margin:10px;
+    background-color: transparent;
+    height:48px;
+    width:184px;
+    border-radius :5px;
+    color: #FFFFFF;
+    border-width:0px;
+    border:1px solid #ffffff;
+
+}
+.input-user{
+    width:200%;
+    height:30px;
+    padding:10px;
+}
+@media screen and (max-width:992px){
+    .input-user{
+        width:100%;
+    }
+}
+.side-two-container{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+}
+.currency-container{
+    display: flex;
+    flex-direction: column;
+}
+.united-state-container{
+    display: flex;
+    flex-direction: row;
+}
+.currency-heading{
+font-family: 'Simplon Norm';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #FFFFFF;
+padding-top: 30px;
+}
+.contact-heading{
+font-family: 'Simplon Norm';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color:#ffffff;
+
+}
+
+.us-number{
+font-family: 'Simplon Norm';
+color:#ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+color:#ffffff;
+
+}
+.mail{
+font-family: 'Simplon Norm';
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+color:#ffffff;
+
+}
+.usd-text{
+font-family: 'Simplon Norm';
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+letter-spacing: 1px;
+text-align: left;
+color:#ffffff;
+margin:3px;
+
+}
+
+.transaction-text{
+font-family: 'Simplon Norm';
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+text-align: left;
+color:#ffffff;
+
+}
+.side-two-container{
+    display: flex;
+    flex-direction: column;
+}
+.metta-text{
+font-family: 'Simplon Norm';
+font-size: 24.71px;
+font-weight: 700;
+line-height: 29.66px;
+text-align: left;
+color:#FFFFFF;
+}
+.about-us-text{
+ font-family: 'Simplon Norm';
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.stories-text{
+    font-family: 'Simplon Norm';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.artisans-text{
+    font-family: 'Simplon Norm';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.Boutiques-text{
+    font-family: 'Simplon Norm';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact-us-text{
+
+    font-family: 'Simplon Norm';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.doc-text{
+    font-family: 'Simplon Norm';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.bottom-one-container{
+    margin:30px;
+}
+
+.three-containers{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.bottom-two-container{
+    margin:30px;
+}
+
+.follow-us-text{
+font-family: 'Simplon Norm';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+.linked-in-and-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.metta-accepts-text{
+font-family: 'Simplon Norm';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #FFFFFF;
+padding-top:30px;
+
+}
+.social-media-links{
+    display: flex;
+    flex-direction:row;
+}
+.copyright-text{
+font-family: 'Simplon Norm';
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+color:#FFFFFF;
+
+
+}

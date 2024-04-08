@@ -1,0 +1,72 @@
+.logo-image{
+    height:30px;
+    width:30px;
+    margin:20px;
+
+}
+.logo-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo-heading{
+    
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    
+}
+.tabs-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.tabs-heading{
+   
+    font-size:20px;
+    font-weight:bold;
+    
+    padding:25px;
+}
+
+.discover-container{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+.discover-heading{
+    font-family: 'Simplon Norm';
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 1px;
+text-align: center;
+
+   
+}
+@media screen and (max-width:1200px){
+    .discover-heading{
+        font-size: 100px;
+    }
+}
+
+.discover-para{
+    font-family: 'Simplon Norm';
+font-size: 22px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+color:#252020;
+
+
+}
+@media screen and(max-width:768px){
+    .discover-para{
+        font-size: 50px;
+    }
+}
